@@ -1,5 +1,3 @@
-import React from "react";
-import MovingTitle from "../../components/MovingTitle";
 import MusicSelectStartContainer from "../../components/MusicSelectStartContainer";
 import { styled } from "styled-components";
 
