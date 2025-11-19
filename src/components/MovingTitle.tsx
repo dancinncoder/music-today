@@ -75,7 +75,7 @@ const Title = styled.h1`
 
   // mobile
   @media (max-width: 768px) {
-    font-size: 3.5rem;
+    font-size: 3.35rem;
   }
 
   // mobile
