@@ -1,17 +1,20 @@
 import React from "react";
-import "./HomePage.module.css";
 import MovingTitle from "../../components/MovingTitle";
 import MusicSelectStartContainer from "../../components/MusicSelectStartContainer";
+import { styled } from "styled-components";
 
 function HomePage() {
   return (
-    <div>
-      <div className="inner-container">
-        <MovingTitle />
+    <HomePageContainer>
+      <div>
         <MusicSelectStartContainer />
       </div>
-    </div>
+    </HomePageContainer>
   );
 }
 
 export default HomePage;
+
+const HomePageContainer = styled.div`
+  /* background-color: black; */
+`;
