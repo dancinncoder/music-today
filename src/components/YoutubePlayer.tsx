@@ -1,4 +1,3 @@
-import React from "react";
 import { styled } from "styled-components";
 
 type VideoData = {
@@ -13,7 +12,7 @@ type YouTubePlayerProps = {
 };
 
 function YouTubePlayer({ videoData }: YouTubePlayerProps) {
-  const { id, videoId, songTitle, artistName } = videoData;
+  const { videoId } = videoData;
   return (
     <CircularContainer>
       <IframeWrapper>

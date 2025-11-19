@@ -1,4 +1,3 @@
-import React from "react";
 import PlayButton from "./PlayButton";
 import { styled } from "styled-components";
 

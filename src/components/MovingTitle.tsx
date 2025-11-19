@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { TypeAnimation } from "react-type-animation";
+
 import { styled } from "styled-components";
 
 function MovingTitle() {

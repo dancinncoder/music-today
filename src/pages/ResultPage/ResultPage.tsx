@@ -1,4 +1,3 @@
-import React from "react";
 import { styled } from "styled-components";
 import YouTubePlayer from "../../components/YoutubePlayer";
 import MovingTitle from "../../components/MovingTitle";
